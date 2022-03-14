@@ -1,0 +1,37 @@
+_id: req_369c00387a89473ebf974a6c24d6f044
+type: Request
+parentId: fld_faf60bf168ad40e6b01e026463ffbcfa
+modified: 1647261482570
+created: 1647261439687
+url: "{{ _.appUrl }}/oauth/token"
+name: Authenticate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"grant_type": "password",
+    	"client_id": "2",
+    	"client_secret": "KavFCs3psfGHgkNfvTCdLZVm6bgLEbjhKexy98MP",
+    	"username": "faizan@example.com",
+    	"password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9ff1fed7b095457290d2b6dcc52f0641
+  - id: pair_6dcd0854abbb47aca1a24eb9dd45ebd3
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1647261439687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

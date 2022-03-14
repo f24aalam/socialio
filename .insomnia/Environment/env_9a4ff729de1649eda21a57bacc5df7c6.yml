@@ -1,0 +1,11 @@
+_id: env_9a4ff729de1649eda21a57bacc5df7c6
+type: Environment
+parentId: env_c8a503e7a32f2e622126eb4ce83f1a3af93139b6
+modified: 1647261357231
+created: 1647261354894
+name: Local
+data: {}
+dataPropertyOrder: {}
+color: null
+isPrivate: false
+metaSortKey: 1647261354894

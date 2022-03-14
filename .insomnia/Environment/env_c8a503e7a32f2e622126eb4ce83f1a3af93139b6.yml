@@ -1,0 +1,19 @@
+_id: env_c8a503e7a32f2e622126eb4ce83f1a3af93139b6
+type: Environment
+parentId: wrk_258ef0fe49cc4c1cb2433598bb3531a1
+modified: 1647261376071
+created: 1647261166691
+name: Base Environment
+data:
+  appUrl: https://socialio.test
+  apiUrl: https://socialio.test/api
+  authToken: "{% response 'body', 'req_f08b54a5597c402895bf599d219f4b64',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - appUrl
+    - apiUrl
+    - authToken
+color: null
+isPrivate: false
+metaSortKey: 1647261166691

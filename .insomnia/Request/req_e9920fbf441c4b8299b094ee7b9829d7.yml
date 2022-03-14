@@ -1,0 +1,27 @@
+_id: req_e9920fbf441c4b8299b094ee7b9829d7
+type: Request
+parentId: fld_faf60bf168ad40e6b01e026463ffbcfa
+modified: 1647261517351
+created: 1647261490926
+url: "{{ _.apiUrl }}/user"
+name: User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ca3a970b8e2049b1bcd3a336d501fb03
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.authToken }}"
+metaSortKey: -1647261490926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
